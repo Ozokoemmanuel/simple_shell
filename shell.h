@@ -24,6 +24,6 @@ extern char **environ;
 int _strcmp(char *s1, char *s2);
 void funcls(char **args);
 char **getargs(char *lineptr);
-void funcenv(__attribute__((unused)) char **args)
+void funcenv(__attribute__((unused)) char **args);
 
 #endif
