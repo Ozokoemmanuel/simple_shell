@@ -26,5 +26,6 @@ void funcls(char **args);
 char **getargs(char *lineptr);
 void funcenv(__attribute__((unused)) char **args);
 void funcex(char **args);
+int _strlen(char *s);
 
 #endif
