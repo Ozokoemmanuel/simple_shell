@@ -110,7 +110,7 @@ int main(void)
 		}
 		if (flag == 0)
 		{
-			perror("wahala\n");
+			perror("./shell");
 		}
 		else
 			flag = 0;
